@@ -9,14 +9,14 @@ public class Mage : MonoBehaviour
     public void OnGUI()
     {
 
-        GUI.Box(new Rect(400, 100, 200, 250), "Players");
+        GUI.Box(new Rect(200, 30, 125, 150), "Player");
 
-        if (GUI.Button(new Rect(450, 150, 100, 50), "Player 2"))
+        if (GUI.Button(new Rect(210, 60, 100, 50), "Mage"))
         {
-            print("Player 2");
+            print("Mage");
         }
 
-        GUI.Box(new Rect(450, 250, 100, 100), "Name: Mage\n\rHealth: 1000\n\rAttack: 2500\n\rDefense: 2500");
+        GUI.Box(new Rect(210, 115, 100, 50), "Health: 1000\n\rAttack: 2500\n\rDefense: 2500");
 
     }
 

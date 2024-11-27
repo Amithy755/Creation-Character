@@ -8,14 +8,14 @@ public class Swordsman : MonoBehaviour
 
     public void OnGUI()
     {
-        GUI.Box(new Rect(700, 100, 200, 250), "Heroes");
+        GUI.Box(new Rect(55, 30, 125, 150), "Player");
 
-        if (GUI.Button(new Rect(750, 150, 100, 50), "Player 1"))
+        if (GUI.Button(new Rect(70, 55, 100, 50), "Swordsman"))
         {
-            print("Player 1");
+            print("Swordsman");
         }
 
-        GUI.Box(new Rect(750, 250, 130, 100), "Name: Swordsman\n\rHealth: 1000\n\rAttack: 2000\n\rDefense: 2000");
+        GUI.Box(new Rect(70, 110, 100, 50), "Health: 1000\n\rAttack: 2000\n\rDefense: 2000");
 
     }
 }
